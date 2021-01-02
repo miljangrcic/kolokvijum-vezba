@@ -1,0 +1,22 @@
+<mat-card *ngIf="user">
+
+    <mat-card-title>
+        {{user.name}} details
+    </mat-card-title>
+
+    <mat-card-content>
+        <mat-list>
+            <mat-list-item>Name: {{user.name}}</mat-list-item>
+            <mat-list-item>Username: {{user.username}}</mat-list-item>
+            <mat-list-item>Email: {{user.email}}</mat-list-item>
+            <mat-list-item>Phone: {{user.phone}}</mat-list-item>
+        </mat-list>
+    </mat-card-content>
+
+    <mat-card-actions>
+        <button id="editBtn" mat-button [routerLink]="['/users', user.id, 'edit']">Edit user</button>
+        <button id="deleteBtn"mat-button (click)="deleteUser(user.id)">Delete user</button>
+        <button id="backBtn" [routerLink]="['/users']" mat-button>Back to users</button>
+    </mat-card-actions>
+
+</mat-card>

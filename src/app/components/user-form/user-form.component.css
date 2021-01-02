@@ -1,0 +1,17 @@
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+mat-form-field { display: block; }
+
+#submitBtn { background-color: lightgreen;}
+
+#cancelBtn {
+    background-color: coral;
+    margin-left: 5px;
+}
+
+small { color: red;}
+
+h1 { text-align: center;}

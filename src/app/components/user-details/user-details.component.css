@@ -1,0 +1,17 @@
+mat-card {
+    width: 50%;
+    margin: 5px auto;
+}
+
+#editBtn { background-color: lightgoldenrodyellow; }
+
+#deleteBtn { background-color: coral; }
+
+#backBtn {
+    background-color: lightskyblue;
+    position: absolute;
+    right: 5px;
+}
+h1 {
+    text-align: center; 
+}

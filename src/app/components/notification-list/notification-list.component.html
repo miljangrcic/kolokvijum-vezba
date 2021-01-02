@@ -1,0 +1,9 @@
+<ul>
+    <li *ngFor="let n of notifications"
+        [ngClass]="{ 'warning': n.isWarning(), 'info': n.isInfo(), 'success': n.isSuccess() }"
+    >
+        <button *ngIf="n.isWarning()" mat-button (click)="removeNotification(n)">X</button>
+        <span>{{n.text}}</span>
+        <span>{{n.time | date: 'mediumTime'}}</span>
+    </li>
+</ul>

@@ -1,0 +1,24 @@
+ul {list-style-type: none;}
+
+li {
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+span {
+    display: block;
+    padding: 5px;
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.103);
+    display: block;
+    margin-left: auto;
+}
+
+.success {background-color: lightgreen;}
+
+.info {background-color: lightgoldenrodyellow;}
+
+.warning {background-color: coral;}

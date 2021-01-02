@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+}
+
+#searchFilter {
+    margin-left: 20px;
+}
+#addUserBtn {
+    margin-left: 20px;
+    background-color: lightskyblue;
+}
+
+#viewBtn {
+    background-color: lightgreen;
+}
+
+#editBtn {
+    background-color: lightgoldenrodyellow;
+}
+#deleteBtn {
+    background-color: coral;
+}
+
+#editBtn, #deleteBtn {
+    margin-left: 5px;
+}
